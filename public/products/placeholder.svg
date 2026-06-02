@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#eef3fb"/>
+  <g stroke="#2563eb" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.6">
+    <circle cx="220" cy="225" r="70"/>
+    <circle cx="380" cy="225" r="70"/>
+    <path d="M290 215h20"/>
+    <path d="M150 205l-35-15M450 205l35-15"/>
+  </g>
+  <text x="300" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#94a3b8">Product photo coming soon</text>
+</svg>
