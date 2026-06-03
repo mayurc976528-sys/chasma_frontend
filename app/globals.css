@@ -29,8 +29,17 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* Never let a stray wide element create sideways scroll on phones. */
-  overflow-x: hidden;
+}
+
+/* Never let a stray wide element (reveal transforms, images, etc.) create
+   sideways scroll on phones. Must be set on BOTH html and body — body alone
+   does not stop the viewport from scrolling horizontally on mobile. */
+html,
+body {
+  max-width: 100%;
+  /* `clip` contains overflow without creating a scroll container, so it can't
+     break the sticky navbar the way `overflow-x: hidden` can. */
+  overflow-x: clip;
 }
 
 /* Tone down boldness site-wide — the heaviest weights are capped to semibold

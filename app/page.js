@@ -73,10 +73,10 @@ export default function Home() {
               inquiries.
             </p>
 
-            <div className="mt-7 flex gap-3">
+            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/collection"
-                className="btn-press inline-flex flex-1 items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-brand px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 hover:bg-brand-dark sm:flex-none sm:px-6"
+                className="btn-press inline-flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-brand px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 hover:bg-brand-dark sm:w-auto sm:px-6"
               >
                 <GlassesIcon className="h-5 w-8" />
                 Browse Collection
@@ -85,7 +85,7 @@ export default function Home() {
                 href={waLink()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-press inline-flex flex-1 items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-slate-200 bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/50 hover:bg-slate-200 sm:flex-none sm:px-6"
+                className="btn-press inline-flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-slate-200 bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-lg shadow-slate-200/50 hover:bg-slate-200 sm:w-auto sm:px-6"
               >
                 <WhatsAppIcon className="h-4 w-4" />
                 Chat on WhatsApp
