@@ -13,9 +13,18 @@ const mulish = Mulish({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://chashmaexpres.in"),
   title: "Chasma Express | See Better. Look Better",
   description:
     "Premium eyewear for everyone — spectacles, sunglasses & computer glasses that match your style and your budget. Order easily on WhatsApp.",
+  alternates: {
+    canonical: "/",
+  },
+  // Google Search Console "HTML tag" verification.
+  // Paste the content value Google gives you (the part inside content="...").
+  verification: {
+    google: "PASTE_GOOGLE_VERIFICATION_CODE_HERE",
+  },
 };
 
 export default function RootLayout({ children }) {
