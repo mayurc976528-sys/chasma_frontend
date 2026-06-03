@@ -23,7 +23,7 @@ export const metadata = {
   // Google Search Console "HTML tag" verification.
   // Paste the content value Google gives you (the part inside content="...").
   verification: {
-    google: "PASTE_GOOGLE_VERIFICATION_CODE_HERE",
+    google: "cYVt4ot8P0jeTQayAIeHsrpD_c1u5xYoQf07L4mPyNA",
   },
 };
 
