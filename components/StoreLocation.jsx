@@ -15,7 +15,7 @@ export default function StoreLocation() {
           <Reveal direction="left" className="h-full overflow-hidden rounded-3xl border border-soft-200">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.unsplash.com/photo-1556015048-4d3aa10df74c?auto=format&fit=crop&w=900&q=80"
+              src="/shop.webp"
               alt={`${site.name} store`}
               className="h-64 w-full object-cover md:h-full"
             />
